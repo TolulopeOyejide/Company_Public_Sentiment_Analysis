@@ -23,7 +23,7 @@ twitter_sentiment_mlops/
 │   ├── ingest_twitter.py   # Fetches tweets
 │   ├── preprocess.py       # Cleans and preprocesses text
 │   ├── train.py            # Trains and logs the model
-│   ├── predict.py        # For making predictions
+│   ├── predict.py          # For making predictions
 │   └── utils.py            # Helper functions
 ├── models/                 # Saved models
 ├── Dockerfile              # Docker setup
@@ -40,10 +40,7 @@ twitter_sentiment_mlops/
 
 ## Setup Instructions
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/twitter_sentiment_mlops.git
-   cd twitter_sentiment_mlops
-   ```
+   `git clone https://github.com/TolulopeOyejide/Company_Public_Sentiment_Analysis.git`
 
 2. Install dependencies:
    ```bash
@@ -56,28 +53,17 @@ twitter_sentiment_mlops/
    PROJECT_NAME = company-public-sentiment-analysis
    ```
 
-4. Run data ingestion:
-   ```bash
-   python src/ingest_twitter.py --company "Tesla"
-   ```
-
-5. Train the model:
+4. Train the model:
    ```bash
   python -m src.train
    ```
 
-6. Serve the model API:
-   ```bash
-   uvicorn api.main:app --reload
-   ```
+5. Serve the model API:
+  `uvicorn api.main:app --reload`
 
-
-
-7. Build and run with Docker:
-   ```bash
-   docker build -t company-public-sentiment-analysis .
-   docker run -p 8000:8000 company-public-sentiment-analysis
-   ```
-
-8. View the UI
-`streamlit run app/streamlit_app.py`
+6. Build and run with Docker:
+   `docker build -t company-public-sentiment-analysis .`
+   `docker run -p 8000:8000 company-public-sentiment-analysis`
+   
+7. View the UI
+   `streamlit run app/streamlit_app.py`
