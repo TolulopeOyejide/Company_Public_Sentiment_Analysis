@@ -39,7 +39,7 @@ twitter_sentiment_mlops/
 - Docker
 
 ## Setup Instructions
-1. Clone the repository:
+1. Clone the repository:  <br>
    `git clone https://github.com/TolulopeOyejide/Company_Public_Sentiment_Analysis.git`
 
 2. Install dependencies:
@@ -53,17 +53,16 @@ twitter_sentiment_mlops/
    PROJECT_NAME = company-public-sentiment-analysis
    ```
 
-4. Train the model:
-   ```bash
-  python -m src.train
-   ```
+4. Train the model: <br>
+   `python -m src.train`
 
-5. Serve the model API:
-  `uvicorn api.main:app --reload`
 
-6. Build and run with Docker:
-   `docker build -t company-public-sentiment-analysis .`
-   `docker run -p 8000:8000 company-public-sentiment-analysis`
+5. Serve the model API:  <br>
+  `uvicorn api.main:app --reload` <br>
+
+6. Build and run with Docker:  <br>
+   `docker build -t company-public-sentiment-analysis .` <br>
+   `docker run -p 8000:8000 company-public-sentiment-analysis`  <br>
    
-7. View the UI
+7. View the UI  <br>
    `streamlit run app/streamlit_app.py`
