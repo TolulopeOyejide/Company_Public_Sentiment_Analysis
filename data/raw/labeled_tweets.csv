@@ -1,0 +1,16 @@
+text,label
+"I love this product!",positive
+"Amazing service, very happy!",positive
+"Absolutely fantastic experience!",positive
+"Best purchase I’ve ever made.",positive
+"Highly recommend this to everyone.",positive
+"This is the worst!",negative
+"I hate this service.",negative
+"Terrible experience, very disappointed.",negative
+"Not worth the money.",negative
+"I will never buy this again.",negative
+"It’s okay, nothing special.",neutral
+"Average experience, not good or bad.",neutral
+"Meh, it’s fine I guess.",neutral
+"Not sure how I feel about this.",neutral
+"It works, but could be better.",neutral

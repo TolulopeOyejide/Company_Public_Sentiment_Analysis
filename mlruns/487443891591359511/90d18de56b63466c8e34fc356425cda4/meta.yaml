@@ -1,0 +1,14 @@
+artifact_uri: /workspaces/Company_Public_Sentiment_Analysis/mlruns/487443891591359511/90d18de56b63466c8e34fc356425cda4/artifacts
+end_time: 1755354004633
+entry_point_name: ''
+experiment_id: '487443891591359511'
+lifecycle_stage: active
+run_id: 90d18de56b63466c8e34fc356425cda4
+run_name: lyrical-fly-167
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755354004598
+status: 3
+tags: []
+user_id: codespace

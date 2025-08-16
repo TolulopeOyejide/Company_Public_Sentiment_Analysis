@@ -1,0 +1,6 @@
+artifact_location: /workspaces/Company_Public_Sentiment_Analysis/mlruns/487443891591359511
+creation_time: 1755353028473
+experiment_id: '487443891591359511'
+last_update_time: 1755353028473
+lifecycle_stage: active
+name: twitter_sentiment_nb

@@ -1,0 +1,14 @@
+artifact_uri: /workspaces/Company_Public_Sentiment_Analysis/mlruns/487443891591359511/b58359c0162748cda8fcccbdaf64f14f/artifacts
+end_time: 1755353411233
+entry_point_name: ''
+experiment_id: '487443891591359511'
+lifecycle_stage: active
+run_id: b58359c0162748cda8fcccbdaf64f14f
+run_name: magnificent-hound-59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755353411069
+status: 3
+tags: []
+user_id: codespace
